@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DAT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>DAT program</h1>
+    <form method="POST" action="/process_csv" enctype="multipart/form-data">
+        <label for="csv-file">Lets start the program:</label>
+        <input type="file" name="csv-file" id="csv-file" accept=".csv">
+        <input type="submit" value="Open cam">
+    </form>
+</body>
+</html>
